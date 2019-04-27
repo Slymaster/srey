@@ -62,6 +62,18 @@
         $("#wrapper").toggleClass("toggled");
       });
 
+      $("#contact").click(function(e) {
+        if($("#wrapper").hasClass("toggled")) {
+          $("#wrapper").toggleClass("toggled");
+        } 
+      })
+
+            $("#home").click(function(e) {
+        if($("#wrapper").hasClass("toggled")) {
+          $("#wrapper").toggleClass("toggled");
+        } 
+      })
+
       var str = "<a href=\"mailto:sylvain.rey.pro@protonmail.com\">sylvain.rey.pro@protonmail.com</a>"
       $("#contact").click(function() {
         $("#txt").html(str);
